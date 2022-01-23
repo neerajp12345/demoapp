@@ -22,8 +22,9 @@ pipeline {
             steps {
             	sh 'mvn test'
             }
-		-->
+		
         }
+	    -->
     	stage('Image Build'){
         	steps {
         		imageBuild(CONTAINER_NAME, CONTAINER_TAG)
