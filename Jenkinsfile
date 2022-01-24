@@ -1,4 +1,4 @@
-def CONTAINER_NAME="demoapp4"
+def CONTAINER_NAME="simpliweb"
 def CONTAINER_TAG="latest"
 def DOCKER_HUB_USER="techwiz"      // Change with you'r DockerHub username.
 def DOCKER_HUB_PASSWORD="Pass!234"
